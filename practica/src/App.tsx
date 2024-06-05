@@ -7,8 +7,6 @@ import Fuentes from "./components/Fuentes";
 function App() {
 
   const { cambiarBgColor, cambiarColor, cambiarFuente, propiedades } = useColor()
-
-  console.log(propiedades.color);
   
 
   return (
