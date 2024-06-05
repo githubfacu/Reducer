@@ -4,7 +4,7 @@ import PaletaColores from "./components/PaletaColores"
 import { useColor } from "./hooks/useColor"
 import Fuentes from "./components/Fuentes";
 
-function App() {
+export default function App() {
 
   const { cambiarBgColor, cambiarColor, cambiarFuente, propiedades } = useColor()
   
@@ -22,5 +22,3 @@ function App() {
     </div>
   )
 }
-
-export default App
