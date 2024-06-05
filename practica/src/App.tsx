@@ -4,11 +4,10 @@ import PaletaColores from "./components/PaletaColores"
 import { useColor } from "./hooks/useColor"
 import Fuentes from "./components/Fuentes";
 
-const App = () => {
+export default function App() {
 
   const { cambiarBgColor, cambiarColor, cambiarFuente, propiedades } = useColor()
   
-
   return (
     <div className="flex flex-col items-center justify-start w-full bg-stone-500 min-h-screen">
       <h1 className="m-4 mt-8">Reducer</h1>
@@ -22,5 +21,3 @@ const App = () => {
     </div>
   )
 }
-
-export default App
