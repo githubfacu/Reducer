@@ -19,50 +19,58 @@ const PaletaColores = ({cambiarBgColor, cambiarColor}: PaletaColoresProps) => {
         {
             label: (
                 <div>
-                <Avatar className=' bg-white rounded-sm'></Avatar>
+                <Avatar style={{backgroundColor: '#ffffff'}}  className='rounded-sm'></Avatar>
                 </div>
             ),
-            value: 'white',
+            value: '#ffffff',
         },
         {
             label: (
                 <div>
-                <Avatar className=' bg-black rounded-sm'></Avatar>
+                <Avatar style={{backgroundColor: '#000000'}}  className='rounded-sm'></Avatar>
                 </div>
             ),
-            value: 'black',
+            value: '#000000',
         },
         {
             label: (
                 <div>
-                <Avatar className=' bg-blue-800 rounded-sm'></Avatar>
+                <Avatar style={{backgroundColor: '#e63946'}}  className='rounded-sm'></Avatar>
                 </div>
             ),
-            value: 'blue-700',
+            value: '#e63946',
         },
         {
             label: (
                 <div>
-                <Avatar className=' bg-red-600 rounded-sm'></Avatar>
+                <Avatar style={{backgroundColor: '#f1faee'}} className='rounded-sm'></Avatar>
                 </div>
             ),
-            value: 'red-600',
+            value: '#f1faee',
         },
         {
             label: (
                 <div>
-                <Avatar className=' bg-orange-600 rounded-sm'></Avatar>
+                <Avatar style={{backgroundColor: '#a8dadc'}}  className='rounded-sm'></Avatar>
                 </div>
             ),
-            value: 'orange-500',
+            value: '#a8dadc',
         },
         {
             label: (
                 <div>
-                <Avatar className=' bg-green-600 rounded-sm'/>
+                <Avatar style={{backgroundColor: '#457b9d'}}  className='rounded-sm'/>
                 </div>
             ),
-            value: 'green-500',
+            value: '#457b9d',
+        },
+        {
+            label: (
+                <div>
+                <Avatar style={{backgroundColor: '#1d3557'}}  className=' rounded-sm'/>
+                </div>
+            ),
+            value: '#1d3557',
         }
     ]
 
