@@ -2,9 +2,6 @@ import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 import { beforeEach, describe, expect, test, vi } from 'vitest';
 import PaletaColores from './PaletaColores';
-import React from 'react';
-
-
 
 describe('colores', () => {
 
@@ -24,9 +21,9 @@ describe('colores', () => {
             })),
           });
 
-        render(<PaletaColores cambiarBgColor={function (bgColor: string): void {
+        render(<PaletaColores cambiarBgColor={function (): void {
             throw new Error('Function not implemented.');
-        } } cambiarColor={function (color: string): void {
+        } } cambiarColor={function (): void {
             throw new Error('Function not implemented.');
         } } />)
     })

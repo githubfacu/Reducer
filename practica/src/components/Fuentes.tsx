@@ -1,9 +1,6 @@
-import React from 'react'
-
 interface FuentesProps {
     cambiarFuente: (fuente: string) => void
 }
-
 
 const Fuentes = ({cambiarFuente}: FuentesProps ) => {
 

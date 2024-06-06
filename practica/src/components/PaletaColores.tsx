@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Avatar, Flex, Segmented } from "antd";
 
 interface PaletaColoresProps {
