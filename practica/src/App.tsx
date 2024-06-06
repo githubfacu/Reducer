@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="flex flex-col items-center justify-start w-full bg-stone-500 min-h-screen">
-      <h1 className="m-4 mt-8 text-neutral-100">Reducer</h1>
+      <h1 className="m-4 mt-12 text-neutral-100">Reducer</h1>
       <PaletaColores cambiarBgColor={cambiarBgColor} cambiarColor={cambiarColor}/>
 
       <article className="flex mt-8 gap-2">
