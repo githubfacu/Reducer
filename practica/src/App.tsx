@@ -1,4 +1,3 @@
-import React from "react"
 import classNames from "classnames";
 import PaletaColores from "./components/PaletaColores"
 import { useColor } from "./hooks/useColor"
